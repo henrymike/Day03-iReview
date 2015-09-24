@@ -54,7 +54,7 @@
 
 - (IBAction)reviewSubmit:(id)sender {
     NSLog(@"Review submitted");
-    NSLog(@"%@, %@, %ld, %f, %f, %i",_reviewerNameField.text, _reviewView.text, _overallRatingsSegControl.selectedSegmentIndex, _foodRatingsSlider.value, _serviceRatingsStepper.value,_recommendSwitch.isOn);
+    NSLog(@"Reviewer: %@, Review: %@, Overall Rating: %ld, Food Rating: %f, Service Rating: %f, Does Recommend: %i",_reviewerNameField.text, _reviewView.text, _overallRatingsSegControl.selectedSegmentIndex, _foodRatingsSlider.value, _serviceRatingsStepper.value,_recommendSwitch.isOn);
 }
 
 #pragma mark - Life Cycle Methods
